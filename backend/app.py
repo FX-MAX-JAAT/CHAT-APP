@@ -23,7 +23,7 @@ from utils import get_db, init_db, User, safe_db_execute, validate_username, val
 app = Flask(__name__)
 
 # Enable CORS for frontend
-CORS(app, origins=["https://your-frontend-domain.netlify.app", "http://localhost:3000"], 
+CORS(app, origins=["[![Netlify Status](https://api.netlify.com/api/v1/badges/0816697e-6fa1-449c-b5bc-61f1a0c67753/deploy-status)](https://app.netlify.com/projects/cute-naiad-34e7eb/deploys)", "http://localhost:3000"], 
      supports_credentials=True)
 
 # Security configurations
